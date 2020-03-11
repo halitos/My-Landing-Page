@@ -1,0 +1,93 @@
+header{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 80px;
+  background-color:#f1e285
+}
+ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin-top: 30px;
+  margin-right: 50px;
+  }
+ul li{
+  width: 100px;
+  padding: 5px 10px;
+}
+ul li:hover{
+  background-color:  #fffde7;
+}
+nav{
+  width: 100%;
+  position: fixed;
+  margin-top: 0px;
+}
+a{
+   text-decoration: none;
+}
+.intro{
+  height: 200px;
+  display: flex;
+  margin: 1em;
+}
+.submit-page {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+  }
+.submit-form {
+  text-align: center;
+}
+.btn{
+  padding: 0 20px;
+}
+
+.adress{
+  text-align: center;
+  background-color: #ddecee;
+  margin-top: 80px;
+}
+@media (max-width: 568px) {
+  ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+#house{
+margin-right: 80px;
+margin-top: 20px;
+max-width: 100%;
+display: block;
+height: 230px;
+float: left;
+}
+@media (max-width: 600px) { 
+  #video{
+    width: 300px;
+  }
+}
+.intro h1{
+  margin-top: 100px;
+  font-size: 30px;
+  margin-left: 20px;
+  display: flex;
+  
+}
+.body h3{
+  margin-top: 100px;
+  margin-left: 600px;
+  display: flex;
+}
+.boxed {
+  border: 1px solid #f1e285 ;
+  background-color: #f1e285;
+} 
+@media screen and (max-width: 800px) {
+  .intro h1 {
+    font-size: 20px;
+  }
+}
